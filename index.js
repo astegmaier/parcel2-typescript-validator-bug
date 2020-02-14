@@ -1,1 +1,0 @@
-console.log("This should be a number, not string");

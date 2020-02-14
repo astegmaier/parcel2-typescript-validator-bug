@@ -1,3 +1,3 @@
-const message: number = "This should be a number, not string";
+const message: string = "Hello world!";
 
 console.log(message);
