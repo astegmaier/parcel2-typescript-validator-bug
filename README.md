@@ -1,5 +1,5 @@
 # parcel2-typescript-validator-bug
-A demonstration of a bug when attempting to use @parcel/validator-typescript
+A demonstration of [a bug](https://github.com/parcel-bundler/parcel/issues/4136) when attempting to use @parcel/validator-typescript
 
 ### Repro steps
 1. Clone the repo and install dependencies with `yarn`
