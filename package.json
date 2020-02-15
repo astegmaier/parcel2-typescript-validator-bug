@@ -1,19 +1,8 @@
 {
-  "name": "parcel2-typescript-validator-bug",
-  "version": "1.0.0",
-  "description": "A demonstration of a bug when attempting to use @parcel/validator-typescript",
-  "main": "index.js",
-  "repository": "https://github.com/astegmaier/parcel2-typescript-validator-bug.git",
-  "author": "Andrew Stegmaier <ansteg@microsoft.com>",
-  "license": "MIT",
-  "private": true,
-  "scripts": {
-    "build": "parcel build src/index.ts",
-    "start": "parcel src/index.ts"
-  },
-  "devDependencies": {
-    "@parcel/validator-typescript": "2.0.0-nightly.112",
-    "parcel": "2.0.0-nightly.110",
-    "typescript": "^3.7.5"
-  }
+    "private": true,
+    "workspaces": ["app1"],
+    "scripts": {
+        "app1:build": "yarn workspace app1 run build",
+        "app1:start": "yarn workspace app1 run start"
+    }
 }
