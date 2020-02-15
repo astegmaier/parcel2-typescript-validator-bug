@@ -1453,6 +1453,14 @@
   dependencies:
     "@parcel/plugin" "2.0.0-nightly.112+9e4870b8"
 
+"@parcel/transformer-typescript-tsc@2.0.0-nightly.112":
+  version "2.0.0-nightly.112"
+  resolved "https://registry.yarnpkg.com/@parcel/transformer-typescript-tsc/-/transformer-typescript-tsc-2.0.0-nightly.112.tgz#b3a4b03b969747aa8c208476b21f19105a0f74df"
+  integrity sha512-UT9aKbq/mB6h9ZAJC5X3D1dY9emUO/Cwi0YNOVLADSoLmFk/cScLnFbAizYFdIw3VHtvDlZgi7aCygk8HPnvUQ==
+  dependencies:
+    "@parcel/plugin" "2.0.0-nightly.112+9e4870b8"
+    "@parcel/ts-utils" "2.0.0-nightly.112+9e4870b8"
+
 "@parcel/transformer-typescript-types@2.0.0-nightly.112+9e4870b8":
   version "2.0.0-nightly.112"
   resolved "https://registry.yarnpkg.com/@parcel/transformer-typescript-types/-/transformer-typescript-types-2.0.0-nightly.112.tgz#6833bce4c7fc2cc61698efffef660d922858e3ac"
