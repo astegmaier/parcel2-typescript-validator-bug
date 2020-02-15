@@ -8,10 +8,12 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "parcel build src/index.ts"
+    "build": "parcel build src/index.ts",
+    "start": "parcel src/index.ts"
   },
   "devDependencies": {
-    "@parcel/validator-typescript": "^2.0.0-alpha.3",
-    "parcel": "^2.0.0-nightly.105"
+    "@parcel/validator-typescript": "2.0.0-nightly.112",
+    "parcel": "2.0.0-nightly.110",
+    "typescript": "^3.7.5"
   }
 }
