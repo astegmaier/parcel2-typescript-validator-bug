@@ -12,8 +12,8 @@
     "start": "parcel src/index.ts"
   },
   "devDependencies": {
-    "@parcel/validator-typescript": "2.0.0-nightly.112",
-    "parcel": "2.0.0-nightly.110",
+    "@parcel/validator-typescript": "2.0.0-nightly.117",
+    "parcel": "2.0.0-nightly.115",
     "typescript": "^3.7.5"
   }
 }
