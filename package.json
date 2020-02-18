@@ -2,7 +2,7 @@
   "name": "parcel2-typescript-validator-bug",
   "version": "1.0.0",
   "description": "A demonstration of a bug when attempting to use @parcel/validator-typescript",
-  "main": "index.js",
+  "main": "index.html",
   "repository": "https://github.com/astegmaier/parcel2-typescript-validator-bug.git",
   "author": "Andrew Stegmaier <ansteg@microsoft.com>",
   "license": "MIT",

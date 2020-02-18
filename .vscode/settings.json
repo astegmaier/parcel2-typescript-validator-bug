@@ -1,0 +1,11 @@
+{
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/node_modules/.*": true,
+    "**/node_modules/@[abcdefghijklmnoqrstuvwxyz]*": true,
+    "**/node_modules/[abcdefghijklmnoqrstuvwxyz]*": true,
+    "**/node_modules/p[-bcdefghijklmnopqrstuvwxyz]*": true,
+    "**/node_modules/pa[-abcdefghijklmnopqstuvwxyz]*": true,
+    "**/node_modules/par[-abdefghijklmnopqrstuvwxyz]*": true
+  }
+}
