@@ -1,8 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "./App";
 
-const message: number = "Hello World"; // This is a type error!
+const message: string = "A new Message!"; // This is a type error!
 
-const App = () => <div>{message}</div>;
-
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<App message={message} />, document.getElementById("root"));
