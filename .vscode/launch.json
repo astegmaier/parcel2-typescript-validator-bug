@@ -13,7 +13,7 @@
       "env": {
         "PARCEL_WORKERS": "0"
       },
-      "args": ["build", "${workspaceFolder}/src/index.html", "--no-cache"],
+      "args": ["build", "${workspaceFolder}/src/index.ts", "--no-cache"],
       "console": "integratedTerminal",
       "skipFiles": ["<node_internals>/**"]
     },
@@ -26,7 +26,7 @@
       "env": {
         "PARCEL_WORKERS": "0"
       },
-      "args": ["${workspaceFolder}/src/index.html", "--no-cache"],
+      "args": ["${workspaceFolder}/src/index.ts", "--no-cache"],
       "console": "integratedTerminal",
       "skipFiles": ["<node_internals>/**"]
     }
