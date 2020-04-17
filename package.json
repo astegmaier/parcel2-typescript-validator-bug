@@ -7,11 +7,6 @@
   "author": "Andrew Stegmaier <ansteg@microsoft.com>",
   "license": "MIT",
   "private": true,
-  "targets": {
-    "main": {
-      "context": "electron-renderer"
-    }
-  },
   "scripts": {
     "build": "parcel build src/index.ts",
     "start": "parcel src/index.ts"
