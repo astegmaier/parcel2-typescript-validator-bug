@@ -1,3 +1,3 @@
-import { myVar } from "./message2";
+import { message2 } from "./message2";
 const message: number = "My Message!";
-export const output = myVar + message;
+export const output = message2 + message;

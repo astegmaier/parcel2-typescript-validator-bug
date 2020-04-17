@@ -1,1 +1,1 @@
-export const myVar: string = 123;
+export const message2: string = 123;
