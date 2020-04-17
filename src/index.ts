@@ -1,3 +1,3 @@
-import { returnMessage } from "./returnMessage";
-const message: string = "My Message!";
-export const output = returnMessage(message);
+import { myVar } from "./message2";
+const message: number = "My Message!";
+export const output = myVar + message;
