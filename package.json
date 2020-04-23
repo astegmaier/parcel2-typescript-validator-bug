@@ -9,7 +9,8 @@
   "private": true,
   "scripts": {
     "build": "parcel build src/index.ts",
-    "start": "parcel src/index.ts"
+    "start": "parcel src/index.ts",
+    "ts": "tsc --noEmit"
   },
   "devDependencies": {
     "@parcel/validator-typescript": "2.0.0-nightly.225",
